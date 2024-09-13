@@ -4,6 +4,8 @@
 
 Passionate about backend development, teaching, and creating solutions that make a difference. Currently working on **GradeGenius**, **WorldExplore**, and **JobSync**.
 
+<a href="https://gitroll.io/profile/ujjw5xrdCTrScmj1kmOAEfoJrN3U2" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/ujjw5xrdCTrScmj1kmOAEfoJrN3U2" alt="GitRoll Profile Badge"/></a>
+
 📫 Let's connect on:
 - [Twitter](https://x.com/Viq_Wondahs)
 - [LinkedIn](https://www.linkedin.com/in/wondahs/)

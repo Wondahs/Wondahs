@@ -1,11 +1,12 @@
 .intro {
 	margin-top: 9rem;
+	margin-bottom: 0;
     color: white;
     text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* height: 100vh; */
+	height: calc(100vh - 9rem);
 	position: relative;
 	padding: 0 10%;
 }

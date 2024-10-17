@@ -3,9 +3,13 @@
   color: white;
   list-style: none;
   z-index: 4;
-  position: relative;
-  /* right: 0; */
-  margin-top: 75%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  /* margin-top: 75%; */
   display: flex;
   flex-direction: row;
   align-self: center;
@@ -22,6 +26,6 @@
 
 @media (min-width: 421px){
   .socials {
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
   }
 }

@@ -1,0 +1,60 @@
+.intro {
+	margin-top: 9rem;
+    color: white;
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* height: 100vh; */
+	position: relative;
+	padding: 0 10%;
+}
+
+.intro * {
+	margin: 0;
+	padding: 0;
+}
+
+.intro h5 {
+	font-size: .8rem;
+}
+
+.intro h1 {
+	font-size: 2.5rem;
+}
+
+.intro p {
+	font-size: .8rem;
+	font-family: "poppins-regular", serif;
+}
+
+.to-about {
+	display: flex;
+	border: #616161 .3rem solid;
+	border-radius: .4rem;
+	width: 7rem;
+	padding: 1.4rem .8rem;
+	margin-top: 2.5rem;
+	text-decoration: none;
+	transition: all ease .3s;
+	color: #ffff;
+}
+
+.to-about:hover {
+	border-color: #cc005f;
+	scale: 1.01;
+}
+
+@media (min-width: 410px) {
+	.intro {
+		margin-top: 12rem;
+	}
+}
+
+.to-about p {
+	font-weight: bold;
+}
+
+.to-about p:visited {
+	color: #ffff;
+}

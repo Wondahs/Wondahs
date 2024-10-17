@@ -1,0 +1,27 @@
+.socials {
+  display: flex;
+  color: white;
+  list-style: none;
+  z-index: 4;
+  position: relative;
+  /* right: 0; */
+  margin-top: 75%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+/* @media (min-width: 410px) and (max-width: 420px){
+  .socials {
+    margin-top: 130%;
+  }
+} */
+
+@media (min-width: 421px){
+  .socials {
+    margin-top: 10rem;
+  }
+}

@@ -1,0 +1,60 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 10%;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+p {
+    opacity: .8;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input, textarea {
+    background: transparent;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 1rem 2rem;
+    border: none;
+    border-bottom: .1rem solid #626161;
+    outline: none;
+    transition: all ease .2s;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: .15rem solid #cc005f;
+}
+
+textarea::placeholder, input::placeholder {
+    font-family: 'poppins-regular';
+}
+
+textarea {
+    min-height: 5rem;
+}
+
+button {
+    background-color: #cc005f;
+    font-family: 'poppins-bold';
+    font-weight: 700;
+    border-radius: .2rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    color: white;
+}

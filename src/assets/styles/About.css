@@ -159,6 +159,8 @@
     font-weight: 900;
     transition: all ease .2s;
     cursor: pointer;
+    color: #313131;
+    background: #ffffff;
 }
 
 .cta-button:hover {

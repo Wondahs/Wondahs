@@ -4,28 +4,19 @@
   list-style: none;
   z-index: 4;
   position: absolute;
-  top: 0;
-  bottom: 0;
+  bottom: 1.5rem;
   left: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
+  width: 50%;
+  transform: translateX(-50%);
   /* margin-top: 75%; */
   display: flex;
   flex-direction: row;
   align-self: center;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
-/* @media (min-width: 410px) and (max-width: 420px){
-  .socials {
-    margin-top: 130%;
-  }
-} */
-
-@media (min-width: 421px){
-  .socials {
-    /* margin-top: 10rem; */
-  }
+.socials img {
+  width: 1.5rem;
 }

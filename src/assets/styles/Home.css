@@ -46,6 +46,14 @@
 	scale: 1.01;
 }
 
+.intro .socials {
+	bottom: 5rem;
+}
+
+.intro .socials img {
+	width: 2rem;
+}
+
 @media (min-width: 410px) {
 	.intro {
 		margin-top: 12rem;

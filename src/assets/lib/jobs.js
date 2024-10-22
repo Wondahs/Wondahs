@@ -42,7 +42,7 @@ const revelatioJob = {
 export const projects = [
   {
     name: "GradeGenius",
-    duration: "July 2024 - Present",
+    duration: "July 2024",
     description:
       "GradeGenius is a web application designed to help students and teachers track academic progress. Built with Python Flask and Jinja templating, the app features a GPA calculator and will soon include a CGPA calculator and grade record management. It allows users to calculate their academic standing and generate reports in a user-friendly interface.",
     technologies: ["Python", "Flask", "Jinja", "HTML", "CSS", "JavaScript"],
@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     name: "Mongo-CRUD",
-    duration: "May 2024 - Present",
+    duration: "May 2024",
     description:
       "Mongo-CRUD is a versatile web application that allows users to manage CRUD operations for MongoDB collections. Designed with Express.js and Mongoose, the app can be configured to handle any collection and database. It's a practical solution for developers needing a flexible, full-stack CRUD interface.",
     technologies: ["JavaScript", "Express.js", "Mongoose", "MongoDB"],
@@ -60,7 +60,7 @@ export const projects = [
   },
   {
     name: "World Explore",
-    duration: "June 2024 - Present",
+    duration: "June 2024",
     description:
       "World Explore is a web application built with Next.js and TypeScript, designed to provide detailed information about countries around the world. It uses a locally hosted JSON file for country data, which is served through an API and displayed on the frontend. The app allows users to explore countries based on their name or region and provides key facts and statistics.",
     technologies: ["Next.js", "TypeScript", "HTML", "CSS"],
@@ -69,7 +69,7 @@ export const projects = [
   },
   {
     name: "JobSync",
-    duration: "August 2024 - Present",
+    duration: "August 2024",
     description:
       "JobSync is a job search web application that aggregates job listings from various job APIs. The app, built with React and JavaScript, allows users to search and filter jobs based on criteria such as location, title, and company. It provides an intuitive interface for job seekers to find relevant opportunities and apply directly from the platform.",
     technologies: ["React", "JavaScript", "HTML", "CSS", "APIs"],

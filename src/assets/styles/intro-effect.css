@@ -1,0 +1,28 @@
+  /* Blinking cursor */
+  .cursor {
+    font-weight: bold;
+    color: #fffbfb;
+    animation: blink 0.7s step-end infinite;
+  }
+  
+  /* Typing text hidden initially */
+  #typed-text {
+    border-right: 0;
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  /* Hide the cursor initially, then show it after delay */
+  .hide-cursor .cursor {
+    visibility: hidden;
+  }
+  
+  .show-cursor .cursor {
+    visibility: visible;
+  }
+  

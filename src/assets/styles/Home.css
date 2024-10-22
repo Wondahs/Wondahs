@@ -34,11 +34,12 @@
 	border: #616161 .3rem solid;
 	border-radius: .4rem;
 	width: 7rem;
-	padding: 1.4rem .8rem;
+	padding: 1rem .5rem;
 	margin-top: 2.5rem;
 	text-decoration: none;
 	transition: all ease .3s;
 	color: #ffff;
+	justify-content: center;
 }
 
 .to-about:hover {
@@ -62,6 +63,7 @@
 
 .to-about p {
 	font-weight: bold;
+	font-family: 'poppins-bold';
 }
 
 .to-about p:visited {

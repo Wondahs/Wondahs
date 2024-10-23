@@ -1,17 +1,17 @@
 import "../assets/styles/About.css";
 import dp from "../assets/images/Profile_Pic.jpg";
-import cssIcon from '../assets/images/icons/css-icon.svg';
-import bashIcon from '../assets/images/icons/bash-icon.svg';
-import canvaIcon from '../assets/images/icons/canva-icon.svg';
-import htmlIcon from '../assets/images/icons/html-icon.svg';
-import mongoIcon from '../assets/images/icons/mongodb-icon.svg';
-import mysqlIcon from '../assets/images/icons/mysql-icon.svg';
-import nodejsIcon from '../assets/images/icons/nodejs-icon.svg';
-import photoshopIcon from '../assets/images/icons/photoshop-icon.svg';
-import pythonIcon from '../assets/images/icons/python-icon.svg';
-import typescriptIcon from '../assets/images/icons/typescript-icon.svg';
-import reactIcon from '../assets/images/icons/react-icon.svg';
-import nextjsIcon from '../assets/images/icons/nextjs-icon.svg';
+import cssIcon from "../assets/images/icons/css-icon.svg";
+import bashIcon from "../assets/images/icons/bash-icon.svg";
+import canvaIcon from "../assets/images/icons/canva-icon.svg";
+import htmlIcon from "../assets/images/icons/html-icon.svg";
+import mongoIcon from "../assets/images/icons/mongodb-icon.svg";
+import mysqlIcon from "../assets/images/icons/mysql-icon.svg";
+import nodejsIcon from "../assets/images/icons/nodejs-icon.svg";
+import photoshopIcon from "../assets/images/icons/photoshop-icon.svg";
+import pythonIcon from "../assets/images/icons/python-icon.svg";
+import typescriptIcon from "../assets/images/icons/typescript-icon.svg";
+import reactIcon from "../assets/images/icons/react-icon.svg";
+import nextjsIcon from "../assets/images/icons/nextjs-icon.svg";
 
 const About = () => {
   return (
@@ -89,8 +89,13 @@ const About = () => {
         </div>
       </div>
       <div className="cta">
-        <button className="cta-button">HIRE ME</button>
-        <button className="download">DOWNLOAD CV</button>
+        <a href="#contact">
+          <button className="cta-button">HIRE ME</button>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1O9mg56AWFoPP8YvGfo39K-FFT9ZrvmH2/view?usp=sharing">
+          <button className="download">DOWNLOAD CV</button>
+        </a>
       </div>
     </section>
   );

@@ -155,6 +155,17 @@
   background: #ffffff;
 }
 
+.cta-button a {
+  color: #313131;
+  width: 100%;
+  text-decoration: none;
+}
+.download a {
+  color: #ffffff;
+  width: 100%;
+  text-decoration: none;
+}
+
 .cta-button:hover {
   border-color: #cc005f;
   color: #cc005f;
@@ -202,8 +213,7 @@
     column-gap: 10%;
   }
 
-  .download,
-  .cta-button {
+  .cta a {
     width: 25%;
   }
 }

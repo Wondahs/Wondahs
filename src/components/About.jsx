@@ -1,5 +1,17 @@
 import "../assets/styles/About.css";
 import dp from "../assets/images/Profile_Pic.jpg";
+import cssIcon from '../assets/images/icons/css-icon.svg';
+import bashIcon from '../assets/images/icons/bash-icon.svg';
+import canvaIcon from '../assets/images/icons/canva-icon.svg';
+import htmlIcon from '../assets/images/icons/html-icon.svg';
+import mongoIcon from '../assets/images/icons/mongodb-icon.svg';
+import mysqlIcon from '../assets/images/icons/mysql-icon.svg';
+import nodejsIcon from '../assets/images/icons/nodejs-icon.svg';
+import photoshopIcon from '../assets/images/icons/photoshop-icon.svg';
+import pythonIcon from '../assets/images/icons/python-icon.svg';
+import typescriptIcon from '../assets/images/icons/typescript-icon.svg';
+import reactIcon from '../assets/images/icons/react-icon.svg';
+import nextjsIcon from '../assets/images/icons/nextjs-icon.svg';
 
 const About = () => {
   return (
@@ -60,19 +72,20 @@ const About = () => {
             work with:
           </p>
 
-          <ul className="skill-bars">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>TYPESCRIPT</li>
-            <li>PYTHON</li>
-            <li>MYSQL</li>
-            <li>MONGO DB</li>
-            <li>C</li>
-            <li>BASH</li>
-            <li>ADOBE PHOTOSHOP</li>
-            <li>CANVA</li>
-          </ul>
+          <div className="skill-bars">
+            <img src={cssIcon} alt="CSS Icon" />
+            <img src={htmlIcon} alt="HTML Icon" />
+            <img src={typescriptIcon} alt="Typescript Icon" />
+            <img src={reactIcon} alt="Reactjs Icon" />
+            <img src={nextjsIcon} alt="Nextjs Icon" />
+            <img src={bashIcon} alt="Bash Icon" />
+            <img src={nodejsIcon} alt="Nodejs Icon" />
+            <img src={pythonIcon} alt="Python Icon" />
+            <img src={mysqlIcon} alt="MySQL Icon" />
+            <img src={mongoIcon} alt="MongoDB Icon" />
+            <img src={canvaIcon} alt="Canva Icon" />
+            <img src={photoshopIcon} alt="Photoshop Icon" />
+          </div>
         </div>
       </div>
       <div className="cta">

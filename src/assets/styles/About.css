@@ -19,7 +19,7 @@
 }
 
 #about p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-family: "poppins-regular", sans-serif;
   line-height: 1.3rem;
 }
@@ -31,7 +31,7 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
-  border-bottom: .1rem solid #c8c7c7;
+  border-bottom: 0.1rem solid #c8c7c7;
 }
 
 #about h3 {
@@ -69,7 +69,7 @@
 }
 .intro-info .lead {
   text-align: left;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .profile-and-skills {
@@ -117,66 +117,58 @@
 
 .skill-bars {
   padding: 1rem 0;
-  margin: 0;
+  margin: 1rem 0 0 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  gap: 1rem;
+  gap: 2.5rem;
   position: relative;
-  list-style: none;
-  font-family: "poppins-regular", sans-serif;
-  font-weight: 900;
-  color: #313131;
-  font-size: 1rem;
 }
 
-.skill-bars li {
-  background: #e5e2e2;
-  padding: 1rem;
-  border-radius: 0.3rem;
+.skill-bars img {
+  width: 3rem;
   transition: all ease 0.3s;
-  border: 1px solid transparent;
 }
 
-.skill-bars li:hover {
-  border: 1px solid #cc005f;
-  scale: 1.01;
+.skill-bars img:hover {
+  scale: 1.1;
 }
 
 .cta {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  justify-content: center;
 }
 
 .cta-button {
-    width: 100%;
-    border: .2rem #313131 solid;
-    margin: 1rem;
-    padding: .8rem;
-    font-weight: 900;
-    transition: all ease .2s;
-    cursor: pointer;
-    color: #313131;
-    background: #ffffff;
+  width: 100%;
+  border: 0.2rem #313131 solid;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  font-weight: 900;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  color: #313131;
+  background: #ffffff;
 }
 
 .cta-button:hover {
-    border-color: #cc005f;
-    color: #cc005f;
+  border-color: #cc005f;
+  color: #cc005f;
 }
 
 .download {
-    width: 100%;
-    border: .2rem #313131 solid;
-    margin: 1rem;
-    padding: .8rem;
-    font-weight: 900;
-    color: #ffffff;
-    cursor: pointer;
-    background: #313131;
+  width: 100%;
+  border: 0.2rem #313131 solid;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  font-weight: 900;
+  color: #ffffff;
+  cursor: pointer;
+  background: #313131;
 }
 
 @media (min-width: 768px) {
@@ -197,6 +189,10 @@
   .profile h3,
   .skills h3 {
     text-align: left;
+  }
+
+  .skill-bars {
+    margin-top: 2rem;
   }
 
   .cta {

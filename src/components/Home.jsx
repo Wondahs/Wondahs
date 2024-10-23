@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <div className="intro">
-      <h5 className="highlight">Hello World,</h5>
+      <h5 className="highlight">Hello World!</h5>
       <h1><span id="typed-text"></span><span className="cursor">|</span></h1>
       <p>Full Stack Developer | Graphics Designer</p>
       <a className="to-about" href="#about">

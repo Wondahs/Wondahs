@@ -1,14 +1,21 @@
 import NavBar from "./NavBar";
-import '../assets/styles/Header.css'
+import '../assets/styles/Header.css';
+import {useEffect} from 'react';
+import {navAnimation} from '../assets/lib/nav-animation.js';
 
 const Header = () => {
+  useEffect(() => {
+    navAnimation();
+  }, [])
+  
+
   return (
     <header>
       <div className="row">
         <div className="top-bar">
-          <a className="menu-toggle" href="#">
+          <button id='menu-toggle' className="menu-toggle" href="#">
             <span>Menu</span>
-          </a>
+          </button>
           <div className="logo">
             <a>WV</a>
           </div>

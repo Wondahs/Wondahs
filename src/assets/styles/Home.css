@@ -1,5 +1,5 @@
 .intro {
-	margin-top: 9rem;
+	margin-top: 0;
 	margin-bottom: 0;
     color: white;
     text-align: center;
@@ -9,6 +9,7 @@
 	height: calc(100vh - 9rem);
 	position: relative;
 	padding: 0 10%;
+	padding-top: 12rem;
 }
 
 .intro * {
@@ -55,11 +56,11 @@
 	width: 2rem;
 }
 
-@media (min-width: 410px) {
+/* @media (min-width: 410px) {
 	.intro {
 		margin-top: 12rem;
 	}
-}
+} */
 
 .to-about p {
 	font-weight: bold;

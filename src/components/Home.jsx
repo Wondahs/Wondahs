@@ -27,7 +27,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="intro">
+    <section className="intro" id="intro">
       <h5 className="highlight">Hello World!</h5>
       <h1><span id="typed-text"></span><span className="cursor">|</span></h1>
       <p>Full Stack Developer | Graphics Designer</p>
@@ -35,7 +35,7 @@ const Home = () => {
         <p>MORE ABOUT ME</p>
       </a>
       <Socials />
-    </div>
+    </section>
   );
 };
 

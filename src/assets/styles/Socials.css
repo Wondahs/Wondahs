@@ -19,4 +19,9 @@
 
 .socials img {
   width: 1.5rem;
+  transition: all ease .3s;
+}
+
+.socials img:hover {
+  scale: 1.05;
 }

@@ -1,15 +1,24 @@
 export const navAnimation = () => {
   const navMenu = document.getElementById("menu-toggle");
   const navWrap = document.getElementsByClassName("main-navigation")[0];
+  const navLinks = document.querySelectorAll(".main-navigation li");
 
+  console.log(navLinks);
   navMenu.addEventListener("click", () => {
-    console.log('clicked something')
+    console.log("clicked something");
     if (navMenu.classList.contains("is-clicked")) {
       navMenu.classList.remove("is-clicked");
       navWrap.classList.remove("open");
     } else {
-        navMenu.classList.add("is-clicked");
-        navWrap.classList.add("open");
+      navMenu.classList.add("is-clicked");
+      navWrap.classList.add("open");
     }
+  });
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      navMenu.classList.remove("is-clicked");
+      navWrap.classList.remove("open");
+    });
   });
 };

@@ -53,6 +53,12 @@ header .logo a {
 	left: 0;
 	background: transparent;
 	padding: 0;
+	cursor: pointer;
+	transition: all ease .3s;
+}
+
+.menu-toggle:hover {
+	scale: 1.05;
 }
 .menu-toggle span {
 	display: block;
@@ -134,24 +140,3 @@ header .logo a {
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
-
-/* @media only screen and (max-width:1024px) {
-	header .top-bar {
-		left: 60px;
-	}
-}
-@media only screen and (max-width:768px) {
-	header .top-bar {
-		left: 50px;
-	}
-}
-@media only screen and (max-width:600px) {
-	header .top-bar {
-		left: 35px;
-	}
-}
-@media only screen and (max-width:400px) {
-	header .top-bar {
-		left: 25px;
-	}
-} */

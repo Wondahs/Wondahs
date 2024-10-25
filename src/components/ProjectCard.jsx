@@ -10,8 +10,8 @@ const ProjectCard = ({ project }) => {
       <div className="border-line"></div>
       <div className="company">
         <p className="description">{project.description}</p>
+        <p className="tech-used">Technologies Used:</p>
         <ul className="technologies">
-          <p>Technologies Used:</p>
           {project.technologies.map((tech, index) => (
             <li key={index}>{tech}</li>
           ))}

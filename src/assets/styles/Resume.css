@@ -80,12 +80,13 @@
     list-style: none;
 }
 
-.technologies p {
-    color: #313131;
+.tech-used {
+    color: #000000;
     text-transform: uppercase;
     font-weight: 800;
     margin: 0;
     margin-bottom: .5rem;
+    font-family: "poppins-medium";
 }
 
 .links {
